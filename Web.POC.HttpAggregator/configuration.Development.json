@@ -9,7 +9,7 @@
           "Port": 44399
         }
       ],
-      "UpstreamPathTemplate": "/service/{id}",
+      "UpstreamPathTemplate": "/web/service/{id}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
     },
     {
