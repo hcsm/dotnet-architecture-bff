@@ -5,19 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Aggregator\**" />
-    <Compile Remove="Models\**" />
-    <Content Remove="Aggregator\**" />
-    <Content Remove="Models\**" />
-    <EmbeddedResource Remove="Aggregator\**" />
-    <EmbeddedResource Remove="Models\**" />
-    <None Remove="Aggregator\**" />
-    <None Remove="Models\**" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Ocelot" Version="15.0.7" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="3.1.1" />
-    <PackageReference Include="Ocelot" Version="15.0.6" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 
